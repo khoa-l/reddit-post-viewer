@@ -27,7 +27,7 @@
     }
 
     .back-button {
-      display: inline-block;
+      display: none;
       padding: 0.5rem 1rem;
       background: #fff;
       border: 1px solid #ccc;
@@ -37,6 +37,10 @@
       margin-bottom: 1rem;
       font-size: 0.875rem;
       transition: all 0.2s ease;
+    }
+
+    .back-button.visible {
+      display: inline-block;
     }
 
     .back-button:hover {

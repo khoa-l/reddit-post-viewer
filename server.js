@@ -127,6 +127,13 @@ const server = http.createServer((req, res) => {
 function handleApiRequest(req, res) {
   const urlPath = req.url;
 
+  // Get config/settings
+  if (urlPath === '/api/config') {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ devMode: DEV_MODE }));
+    return;
+  }
+
   // List all posts
   if (urlPath === '/api/posts') {
     const indexFile = path.join(DATA_DIR, 'index.json');

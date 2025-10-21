@@ -6,7 +6,10 @@ class RedditPostViewer {
     this.init();
   }
 
-  init() {
+  async init() {
+    // Check if dev mode is enabled to show back button
+    await this.checkDevMode();
+
     const params = new URLSearchParams(window.location.search);
     const postId = params.get('post');
 
@@ -17,6 +20,24 @@ class RedditPostViewer {
     // Construct filename from post ID
     const filename = `${postId}.json`;
     this.loadPost(filename);
+  }
+
+  async checkDevMode() {
+    try {
+      const response = await fetch('/api/config');
+      if (response.ok) {
+        const config = await response.json();
+        if (config.devMode) {
+          const backButton = document.querySelector('.back-button');
+          if (backButton) {
+            backButton.classList.add('visible');
+          }
+        }
+      }
+    } catch (error) {
+      // Silently fail - back button stays hidden
+      console.log('Could not fetch config');
+    }
   }
 
   async loadPost(filename) {
