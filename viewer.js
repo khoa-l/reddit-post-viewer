@@ -11,6 +11,13 @@ class RedditPostViewer {
     await this.checkDevMode();
 
     const params = new URLSearchParams(window.location.search);
+
+    // Check for attention check parameter
+    const isAttentionCheck = params.get('attention');
+    if (isAttentionCheck) {
+      return this.showAttentionCheck();
+    }
+
     const postId = params.get('post');
 
     if (!postId) {
@@ -342,6 +349,22 @@ class RedditPostViewer {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+  }
+
+  showAttentionCheck() {
+    document.getElementById('app').innerHTML = `
+      <div class="post-container">
+        <div class="post-content">
+          <h1 class="post-title">Attention Check</h1>
+          <div class="post-body">
+            <p style="font-size: 1.125rem; line-height: 1.6; color: #1a1a1b; margin: 1.5rem 0;">
+              This post is special. We want to make sure you are paying attention to all the posts.
+              Please give this post a rating of 2.
+            </p>
+          </div>
+        </div>
+      </div>
+    `;
   }
 
   showLoading() {
