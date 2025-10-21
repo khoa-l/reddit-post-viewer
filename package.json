@@ -1,0 +1,16 @@
+{
+  "name": "reddit-viewer",
+  "version": "1.0.0",
+  "description": "Standalone viewer for downloaded Reddit posts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "reddit",
+    "viewer"
+  ],
+  "author": "",
+  "license": "MIT"
+}
