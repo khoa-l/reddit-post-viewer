@@ -11,17 +11,15 @@ class RedditPostViewer {
     await this.checkDevMode();
 
     const params = new URLSearchParams(window.location.search);
-
-    // Check for attention check parameter
-    const isAttentionCheck = params.get('attention');
-    if (isAttentionCheck) {
-      return this.showAttentionCheck();
-    }
-
     const postId = params.get('post');
 
     if (!postId) {
       return this.showError('No post specified. Return to the list and select a post.');
+    }
+
+    // Check for attention check
+    if (postId === 'attention') {
+      return this.showAttentionCheck();
     }
 
     // Construct filename from post ID
