@@ -189,6 +189,46 @@ function handleApiRequest(req, res) {
     return;
   }
 
+  // Serve media files (video/audio)
+  if (urlPath.startsWith('/api/media/')) {
+    const mediaPath = urlPath.replace('/api/media/', '');
+    const filepath = path.join(DATA_DIR, mediaPath);
+
+    // Security check - ensure path is within data directory
+    const normalizedPath = path.normalize(filepath);
+    if (!normalizedPath.startsWith(DATA_DIR)) {
+      res.writeHead(403, { 'Content-Type': 'text/plain' });
+      res.end('Forbidden');
+      return;
+    }
+
+    if (!fs.existsSync(filepath)) {
+      res.writeHead(404, { 'Content-Type': 'text/plain' });
+      res.end('Media not found');
+      return;
+    }
+
+    try {
+      const stat = fs.statSync(filepath);
+      if (!stat.isFile()) {
+        res.writeHead(404, { 'Content-Type': 'text/plain' });
+        res.end('Not a file');
+        return;
+      }
+
+      const mimeType = getMimeType(filepath);
+      res.writeHead(200, {
+        'Content-Type': mimeType,
+        'Content-Length': stat.size,
+      });
+      fs.createReadStream(filepath).pipe(res);
+    } catch (error) {
+      res.writeHead(500, { 'Content-Type': 'text/plain' });
+      res.end('Failed to serve media');
+    }
+    return;
+  }
+
   res.writeHead(404, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({ error: 'API endpoint not found' }));
 }

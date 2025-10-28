@@ -117,10 +117,17 @@ class RedditPostViewer {
       const video = post.media.reddit_video;
       const isGif = video.is_gif;
 
+      // Check if this is a local media path (merged video)
+      let videoUrl = video.fallback_url;
+      if (videoUrl.startsWith('media/')) {
+        // Convert local path to API endpoint
+        videoUrl = `/api/media/${videoUrl}`;
+      }
+
       if (isGif) {
-        html += `<div class="media-frame"><video class="post-video" controls muted loop><source src="${video.fallback_url}" type="video/mp4"></video></div>`;
+        html += `<div class="media-frame"><video class="post-video" controls muted loop><source src="${videoUrl}" type="video/mp4"></video></div>`;
       } else {
-        html += `<div class="media-frame"><video class="post-video" controls muted><source src="${video.fallback_url}" type="video/mp4"></video></div>`;
+        html += `<div class="media-frame"><video class="post-video" controls muted><source src="${videoUrl}" type="video/mp4"></video></div>`;
       }
     } else if (post.post_hint === 'image' || this.isImage(post.url)) {
       const imgUrl = post.preview?.images?.[0]?.source?.url
