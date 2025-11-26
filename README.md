@@ -4,11 +4,10 @@ A web-based viewer for displaying Reddit posts from JSON files with support for 
 
 ## Quick Start
 
-1. **Set up data directory (symlink to reddit-downloader)**
-```bash
-# From reddit-viewer directory
-ln -s ../reddit-downloader/data data
-```
+1. **Add posts to data directory**
+   - The `data/` directory contains post JSON files
+   - Use [reddit-downloader](https://github.com/your-org/reddit-downloader) to download posts
+   - Copy downloaded files to `data/` or symlink for local development
 
 2. **Start the server**
 ```bash
@@ -34,12 +33,22 @@ PORT=3000 DEV_MODE=true node server.js
 
 ## Data Format
 
-Posts are stored in the reddit-downloader data directory (symlinked as `./data`):
+Posts are stored in the `data/` directory:
 - `data/index.json` - Metadata index of all posts
 - `data/{postId}.json` - Individual post files
 - `data/media/{postId}/` - Downloaded media files (videos, images)
 
-Use the [reddit-downloader](../reddit-downloader) tool to download posts.
+### Adding Posts
+
+Download posts with [reddit-downloader](https://github.com/your-org/reddit-downloader), then:
+
+```bash
+# Sync data from reddit-downloader
+./sync-data.sh
+
+# Or symlink for local development
+rm -rf data && ln -s ../reddit-downloader/data data
+```
 
 ## Embedding in Qualtrics
 
@@ -81,7 +90,11 @@ reddit-viewer/
 ├── index.js           # Post list renderer
 ├── viewer.html        # Post viewer page
 ├── viewer.js          # Post viewer renderer
-├── data/              # Symlink to ../reddit-downloader/data
+├── data/              # Post data directory
+│   ├── README.md
+│   ├── index.json
+│   ├── {postId}.json
+│   └── media/
 └── README.md
 ```
 
@@ -93,9 +106,9 @@ reddit-viewer/
 - Verify posts are downloaded in reddit-downloader
 
 **Videos not playing**
-- Ensure ffmpeg is installed for video/audio merging
-- Check media files exist in `data/media/{postId}/`
-- Verify server can access symlinked media directory
+- Ensure media files exist in `data/media/{postId}/`
+- Check that media was downloaded with reddit-downloader
+- Verify file paths in JSON match actual file locations
 
 ## License
 
