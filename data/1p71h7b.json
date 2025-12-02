@@ -1,6 +1,6 @@
 {
   "path": "r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world",
-  "timestamp": "2025-11-26T23:26:03.736Z",
+  "timestamp": "2025-12-01T22:06:51.446Z",
   "data": [
     {
       "kind": "Listing",
@@ -34,7 +34,7 @@
               "name": "t3_1p71h7b",
               "quarantine": false,
               "link_flair_text_color": "dark",
-              "upvote_ratio": 0.49,
+              "upvote_ratio": 0.5,
               "author_flair_background_color": null,
               "subreddit_type": "public",
               "ups": 0,
@@ -52,9 +52,9 @@
                   "height": 640,
                   "width": 360,
                   "scrubber_media_url": "https://v.redd.it/evscyk1wyj3g1/CMAF_96.mp4",
-                  "dash_url": "https://v.redd.it/evscyk1wyj3g1/DASHPlaylist.mpd?a=1766791563%2COTBkOTM3YmE2NWUxMDBhYWI3ZWEzNTkxZDIzMzgxZTQyYjQxOTRlYmFmMTgwZDM2ODc2NWRhMGYyMjUwNDdkYg%3D%3D&amp;v=1&amp;f=sd",
+                  "dash_url": "https://v.redd.it/evscyk1wyj3g1/DASHPlaylist.mpd?a=1767218810%2COGZiM2ViODA5YWMxNjljZWRjOWY2N2ExNDg5MTEwMWRiMWMxMDQ0MzM4MTg1YTEwZmQ4ZGI4NjdlOGRkZGM5Nw%3D%3D&amp;v=1&amp;f=sd",
                   "duration": 58,
-                  "hls_url": "https://v.redd.it/evscyk1wyj3g1/HLSPlaylist.m3u8?a=1766791563%2CZDA1MThiYjJhNWI5NDM5MGYyZjIwNTMwYWY0YWJjMzllNTI5YjVkY2MxMzNiMDY2NzA2YTE3YzE3OGZmZDM4Nw%3D%3D&amp;v=1&amp;f=sd",
+                  "hls_url": "https://v.redd.it/evscyk1wyj3g1/HLSPlaylist.m3u8?a=1767218810%2COWM5ZTIzZTU3MDIxYmVlMTI5NGU0ZWY3Njg0YTBiNzQ5MDVhODgzMzhkNjlhNzg5YzNmNmJkOGZlZDg4NWViMA%3D%3D&amp;v=1&amp;f=sd",
                   "is_gif": false,
                   "transcoding_status": "completed"
                 }
@@ -171,9 +171,9 @@
                   "height": 640,
                   "width": 360,
                   "scrubber_media_url": "https://v.redd.it/evscyk1wyj3g1/CMAF_96.mp4",
-                  "dash_url": "https://v.redd.it/evscyk1wyj3g1/DASHPlaylist.mpd?a=1766791563%2COTBkOTM3YmE2NWUxMDBhYWI3ZWEzNTkxZDIzMzgxZTQyYjQxOTRlYmFmMTgwZDM2ODc2NWRhMGYyMjUwNDdkYg%3D%3D&amp;v=1&amp;f=sd",
+                  "dash_url": "https://v.redd.it/evscyk1wyj3g1/DASHPlaylist.mpd?a=1767218810%2COGZiM2ViODA5YWMxNjljZWRjOWY2N2ExNDg5MTEwMWRiMWMxMDQ0MzM4MTg1YTEwZmQ4ZGI4NjdlOGRkZGM5Nw%3D%3D&amp;v=1&amp;f=sd",
                   "duration": 58,
-                  "hls_url": "https://v.redd.it/evscyk1wyj3g1/HLSPlaylist.m3u8?a=1766791563%2CZDA1MThiYjJhNWI5NDM5MGYyZjIwNTMwYWY0YWJjMzllNTI5YjVkY2MxMzNiMDY2NzA2YTE3YzE3OGZmZDM4Nw%3D%3D&amp;v=1&amp;f=sd",
+                  "hls_url": "https://v.redd.it/evscyk1wyj3g1/HLSPlaylist.m3u8?a=1767218810%2COWM5ZTIzZTU3MDIxYmVlMTI5NGU0ZWY3Njg0YTBiNzQ5MDVhODgzMzhkNjlhNzg5YzNmNmJkOGZlZDg4NWViMA%3D%3D&amp;v=1&amp;f=sd",
                   "is_gif": false,
                   "transcoding_status": "completed"
                 }
@@ -184,7 +184,7 @@
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/",
               "stickied": false,
               "url": "media/1p71h7b/merged.mp4",
-              "subreddit_subscribers": 15829967,
+              "subreddit_subscribers": 15847214,
               "created_utc": 1764141676,
               "num_crossposts": 0,
               "mod_reports": [],
@@ -267,7 +267,7 @@
                         "created_utc": 1764151075,
                         "send_replies": true,
                         "parent_id": "t1_nquu72w",
-                        "score": 2,
+                        "score": 3,
                         "author_fullname": "t2_63qya0pq",
                         "removal_reason": null,
                         "approved_by": null,
@@ -309,7 +309,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": 2
+                        "ups": 3
                       }
                     }
                   ],
@@ -330,7 +330,7 @@
               "created_utc": 1764150797,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 35,
+              "score": 37,
               "author_fullname": "t2_p1co0",
               "approved_by": null,
               "mod_note": null,
@@ -372,7 +372,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 35
+              "ups": 37
             }
           },
           {
@@ -405,7 +405,7 @@
               "created_utc": 1764145028,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 46,
+              "score": 48,
               "author_fullname": "t2_vf4piae0",
               "approved_by": null,
               "mod_note": null,
@@ -447,13 +447,12 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 46
+              "ups": 48
             }
           },
           {
             "kind": "t1",
             "data": {
-              "body": "Nice little move where he tucks the loaded and cocked pistol under his arm!",
               "subreddit_id": "t5_2qhsa",
               "approved_at_utc": null,
               "author_is_blocked": false,
@@ -699,7 +698,7 @@
                                             "can_mod_post": false,
                                             "send_replies": true,
                                             "parent_id": "t1_nqum2aw",
-                                            "score": 8,
+                                            "score": 9,
                                             "author_fullname": "t2_payec",
                                             "removal_reason": null,
                                             "approved_by": null,
@@ -742,7 +741,7 @@
                                             "collapsed_because_crowd_control": null,
                                             "mod_reports": [],
                                             "num_reports": null,
-                                            "ups": 8
+                                            "ups": 9
                                           }
                                         }
                                       ],
@@ -762,7 +761,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nqul60p",
-                                  "score": -15,
+                                  "score": -16,
                                   "author_fullname": "t2_1px7m6f5bn",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -805,7 +804,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": -15
+                                  "ups": -16
                                 }
                               }
                             ],
@@ -826,7 +825,7 @@
                         "created_utc": 1764145306,
                         "send_replies": true,
                         "parent_id": "t1_nqujumf",
-                        "score": 12,
+                        "score": 11,
                         "author_fullname": "t2_1yisk3tedy",
                         "removal_reason": null,
                         "approved_by": null,
@@ -868,7 +867,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": 12
+                        "ups": 11
                       }
                     }
                   ],
@@ -895,7 +894,7 @@
               "mod_note": null,
               "all_awardings": [],
               "collapsed": false,
-              "author_cakeday": true,
+              "body": "Nice little move where he tucks the loaded and cocked pistol under his arm!",
               "edited": false,
               "top_awarded_type": null,
               "author_flair_css_class": null,
@@ -964,7 +963,7 @@
               "created_utc": 1764155699,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 9,
+              "score": 11,
               "author_fullname": "t2_5xymbr3v",
               "approved_by": null,
               "mod_note": null,
@@ -1006,7 +1005,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 9
+              "ups": 11
             }
           },
           {
@@ -1062,7 +1061,7 @@
                         "created_utc": 1764166233,
                         "send_replies": true,
                         "parent_id": "t1_nqut8kn",
-                        "score": 1,
+                        "score": -1,
                         "author_fullname": "t2_89zjaafz",
                         "removal_reason": null,
                         "approved_by": null,
@@ -1088,7 +1087,7 @@
                         "link_id": "t3_1p71h7b",
                         "unrepliable_reason": null,
                         "author_flair_text_color": null,
-                        "score_hidden": true,
+                        "score_hidden": false,
                         "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvrts1/",
                         "subreddit_type": "public",
                         "locked": false,
@@ -1104,7 +1103,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": 1
+                        "ups": -1
                       }
                     }
                   ],
@@ -1125,7 +1124,7 @@
               "created_utc": 1764150215,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 22,
+              "score": 23,
               "author_fullname": "t2_6jdlc",
               "approved_by": null,
               "mod_note": null,
@@ -1167,7 +1166,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 22
+              "ups": 23
             }
           },
           {
@@ -1245,7 +1244,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nqumo23",
-                                  "score": 17,
+                                  "score": 16,
                                   "author_fullname": "t2_u38wej30",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -1288,7 +1287,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": 17
+                                  "ups": 16
                                 }
                               },
                               {
@@ -1384,7 +1383,7 @@
                         "created_utc": 1764146203,
                         "send_replies": true,
                         "parent_id": "t1_nqufyd7",
-                        "score": 61,
+                        "score": 63,
                         "author_fullname": "t2_303xu",
                         "removal_reason": null,
                         "approved_by": null,
@@ -1426,7 +1425,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": 61
+                        "ups": 63
                       }
                     },
                     {
@@ -1531,7 +1530,7 @@
                                             "link_id": "t3_1p71h7b",
                                             "unrepliable_reason": null,
                                             "author_flair_text_color": null,
-                                            "score_hidden": true,
+                                            "score_hidden": false,
                                             "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqwgv2k/",
                                             "subreddit_type": "public",
                                             "locked": false,
@@ -1594,7 +1593,7 @@
                                   "link_id": "t3_1p71h7b",
                                   "unrepliable_reason": null,
                                   "author_flair_text_color": null,
-                                  "score_hidden": true,
+                                  "score_hidden": false,
                                   "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvaey2/",
                                   "subreddit_type": "public",
                                   "locked": false,
@@ -1951,7 +1950,7 @@
                                                       "unrepliable_reason": null,
                                                       "author_flair_text_color": null,
                                                       "treatment_tags": [],
-                                                      "score_hidden": true,
+                                                      "score_hidden": false,
                                                       "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqv6bgh/",
                                                       "subreddit_type": "public",
                                                       "locked": false,
@@ -2050,7 +2049,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nquhzs1",
-                                  "score": 3,
+                                  "score": 2,
                                   "author_fullname": "t2_dv3gba3i",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -2093,82 +2092,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": 3
-                                }
-                              },
-                              {
-                                "kind": "t1",
-                                "data": {
-                                  "subreddit_id": "t5_2qhsa",
-                                  "approved_at_utc": null,
-                                  "author_is_blocked": false,
-                                  "comment_type": null,
-                                  "awarders": [],
-                                  "mod_reason_by": null,
-                                  "banned_by": null,
-                                  "author_flair_type": "text",
-                                  "total_awards_received": 0,
-                                  "subreddit": "interestingasfuck",
-                                  "author_flair_template_id": null,
-                                  "likes": null,
-                                  "replies": "",
-                                  "user_reports": [],
-                                  "saved": false,
-                                  "id": "nquipxb",
-                                  "banned_at_utc": null,
-                                  "mod_reason_title": null,
-                                  "gilded": 0,
-                                  "archived": false,
-                                  "collapsed_reason_code": null,
-                                  "no_follow": true,
-                                  "author": "endowedmansized",
-                                  "can_mod_post": false,
-                                  "send_replies": true,
-                                  "parent_id": "t1_nquhzs1",
-                                  "score": -1,
-                                  "author_fullname": "t2_1ulemq881m",
-                                  "removal_reason": null,
-                                  "approved_by": null,
-                                  "mod_note": null,
-                                  "all_awardings": [],
-                                  "body": "He trippin dawg",
-                                  "edited": false,
-                                  "top_awarded_type": null,
-                                  "downs": 0,
-                                  "author_flair_css_class": null,
-                                  "name": "t1_nquipxb",
-                                  "is_submitter": false,
-                                  "collapsed": false,
-                                  "author_flair_richtext": [],
-                                  "author_patreon_flair": false,
-                                  "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;He trippin dawg&lt;/p&gt;\n&lt;/div&gt;",
-                                  "gildings": {},
-                                  "collapsed_reason": null,
-                                  "distinguished": null,
-                                  "associated_award": null,
-                                  "stickied": false,
-                                  "author_premium": false,
-                                  "can_gild": false,
-                                  "link_id": "t3_1p71h7b",
-                                  "unrepliable_reason": null,
-                                  "author_flair_text_color": null,
-                                  "score_hidden": false,
-                                  "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nquipxb/",
-                                  "subreddit_type": "public",
-                                  "locked": false,
-                                  "report_reasons": null,
-                                  "created": 1764143884,
-                                  "author_flair_text": null,
-                                  "treatment_tags": [],
-                                  "created_utc": 1764143884,
-                                  "subreddit_name_prefixed": "r/interestingasfuck",
-                                  "controversiality": 0,
-                                  "depth": 2,
-                                  "author_flair_background_color": null,
-                                  "collapsed_because_crowd_control": null,
-                                  "mod_reports": [],
-                                  "num_reports": null,
-                                  "ups": -1
+                                  "ups": 2
                                 }
                               }
                             ],
@@ -2350,7 +2274,7 @@
                         "created_utc": 1764145767,
                         "send_replies": true,
                         "parent_id": "t1_nqufyd7",
-                        "score": -7,
+                        "score": -8,
                         "author_fullname": "t2_1px7m6f5bn",
                         "removal_reason": null,
                         "approved_by": null,
@@ -2392,7 +2316,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": -7
+                        "ups": -8
                       }
                     }
                   ],
@@ -2413,7 +2337,7 @@
               "created_utc": 1764142305,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 36,
+              "score": 32,
               "author_fullname": "t2_bpkb9p2m",
               "approved_by": null,
               "mod_note": null,
@@ -2455,7 +2379,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 36
+              "ups": 32
             }
           },
           {
@@ -2488,7 +2412,7 @@
               "created_utc": 1764143564,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 31,
+              "score": 30,
               "author_fullname": "t2_7vwk4",
               "approved_by": null,
               "mod_note": null,
@@ -2530,7 +2454,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 31
+              "ups": 30
             }
           },
           {
@@ -2769,7 +2693,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nqunnx1",
-                                  "score": 2,
+                                  "score": 1,
                                   "author_fullname": "t2_zplr95mwb",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -2812,7 +2736,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": 2
+                                  "ups": 1
                                 }
                               }
                             ],
@@ -2908,7 +2832,7 @@
                         "created_utc": 1764147857,
                         "send_replies": false,
                         "parent_id": "t1_nqufugi",
-                        "score": -8,
+                        "score": -7,
                         "author_fullname": "t2_rh7s2",
                         "removal_reason": null,
                         "approved_by": null,
@@ -2950,7 +2874,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": -8
+                        "ups": -7
                       }
                     },
                     {
@@ -3028,7 +2952,7 @@
                                             "can_mod_post": false,
                                             "send_replies": true,
                                             "parent_id": "t1_nquk3ww",
-                                            "score": 9,
+                                            "score": 10,
                                             "author_fullname": "t2_nqaj16en",
                                             "removal_reason": null,
                                             "approved_by": null,
@@ -3071,7 +2995,7 @@
                                             "collapsed_because_crowd_control": null,
                                             "mod_reports": [],
                                             "num_reports": null,
-                                            "ups": 9
+                                            "ups": 10
                                           }
                                         }
                                       ],
@@ -3155,7 +3079,7 @@
                         "created_utc": 1764142382,
                         "send_replies": true,
                         "parent_id": "t1_nqufugi",
-                        "score": -27,
+                        "score": -28,
                         "author_fullname": "t2_blxkm",
                         "removal_reason": null,
                         "approved_by": null,
@@ -3197,7 +3121,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": -27
+                        "ups": -28
                       }
                     },
                     {
@@ -3338,7 +3262,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nqul6sa",
-                                  "score": 11,
+                                  "score": 9,
                                   "author_fullname": "t2_11hr6a",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -3381,7 +3305,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": 11
+                                  "ups": 9
                                 }
                               },
                               {
@@ -3417,7 +3341,7 @@
                                             "awarders": [],
                                             "mod_reason_by": null,
                                             "banned_by": null,
-                                            "ups": -2,
+                                            "ups": -3,
                                             "removal_reason": null,
                                             "link_id": "t3_1p71h7b",
                                             "author_flair_template_id": null,
@@ -3522,7 +3446,7 @@
                                             "can_mod_post": false,
                                             "send_replies": true,
                                             "parent_id": "t1_nqumu0y",
-                                            "score": -2,
+                                            "score": -3,
                                             "approved_by": null,
                                             "report_reasons": null,
                                             "all_awardings": [],
@@ -3580,7 +3504,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nqul6sa",
-                                  "score": 3,
+                                  "score": 5,
                                   "author_fullname": "t2_ny7eoa6t",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -3623,7 +3547,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": 3
+                                  "ups": 5
                                 }
                               }
                             ],
@@ -3702,7 +3626,7 @@
               "created_utc": 1764142243,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 41,
+              "score": 39,
               "author_fullname": "t2_9s8r3v",
               "approved_by": null,
               "mod_note": null,
@@ -3744,7 +3668,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 41
+              "ups": 39
             }
           },
           {
@@ -3777,7 +3701,7 @@
               "created_utc": 1764160216,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 1,
+              "score": 2,
               "author_fullname": "t2_dendzn83",
               "approved_by": null,
               "mod_note": null,
@@ -3803,7 +3727,7 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvc1ai/",
               "subreddit_type": "public",
               "locked": false,
@@ -3819,7 +3743,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 1
+              "ups": 2
             }
           },
           {
@@ -3852,7 +3776,7 @@
               "created_utc": 1764165628,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 1,
+              "score": 2,
               "author_fullname": "t2_84w9v9y8",
               "approved_by": null,
               "mod_note": null,
@@ -3878,7 +3802,7 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvq3q0/",
               "subreddit_type": "public",
               "locked": false,
@@ -3894,7 +3818,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 1
+              "ups": 2
             }
           },
           {
@@ -3927,7 +3851,7 @@
               "created_utc": 1764142997,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 5,
+              "score": 4,
               "author_fullname": "t2_egoeu",
               "approved_by": null,
               "mod_note": null,
@@ -3969,7 +3893,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 5
+              "ups": 4
             }
           },
           {
@@ -4002,7 +3926,7 @@
               "created_utc": 1764144115,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 4,
+              "score": 3,
               "author_fullname": "t2_jnc93",
               "approved_by": null,
               "mod_note": null,
@@ -4044,7 +3968,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 4
+              "ups": 3
             }
           },
           {
@@ -4178,7 +4102,7 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvstcr/",
               "subreddit_type": "public",
               "locked": false,
@@ -4253,7 +4177,7 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvstl0/",
               "subreddit_type": "public",
               "locked": false,
@@ -4328,12 +4252,87 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvtm09/",
               "subreddit_type": "public",
               "locked": false,
               "report_reasons": null,
               "created": 1764166844,
+              "author_flair_text": null,
+              "treatment_tags": [],
+              "link_id": "t3_1p71h7b",
+              "subreddit_name_prefixed": "r/interestingasfuck",
+              "controversiality": 0,
+              "depth": 0,
+              "author_flair_background_color": null,
+              "collapsed_because_crowd_control": null,
+              "mod_reports": [],
+              "num_reports": null,
+              "ups": 1
+            }
+          },
+          {
+            "kind": "t1",
+            "data": {
+              "subreddit_id": "t5_2qhsa",
+              "approved_at_utc": null,
+              "author_is_blocked": false,
+              "comment_type": null,
+              "awarders": [],
+              "mod_reason_by": null,
+              "banned_by": null,
+              "author_flair_type": "text",
+              "total_awards_received": 0,
+              "subreddit": "interestingasfuck",
+              "author_flair_template_id": null,
+              "likes": null,
+              "replies": "",
+              "user_reports": [],
+              "saved": false,
+              "id": "nr8cwph",
+              "banned_at_utc": null,
+              "mod_reason_title": null,
+              "gilded": 0,
+              "archived": false,
+              "collapsed_reason_code": null,
+              "no_follow": true,
+              "author": "Cultural_Buy80",
+              "can_mod_post": false,
+              "created_utc": 1764344957,
+              "send_replies": true,
+              "parent_id": "t3_1p71h7b",
+              "score": 1,
+              "author_fullname": "t2_20sqt0dzxi",
+              "approved_by": null,
+              "mod_note": null,
+              "all_awardings": [],
+              "collapsed": true,
+              "body": "clueless American fuckwittery.",
+              "edited": false,
+              "top_awarded_type": null,
+              "author_flair_css_class": null,
+              "name": "t1_nr8cwph",
+              "is_submitter": false,
+              "downs": 0,
+              "author_flair_richtext": [],
+              "author_patreon_flair": false,
+              "body_html": "&lt;div class=\"md\"&gt;&lt;p&gt;clueless American fuckwittery.&lt;/p&gt;\n&lt;/div&gt;",
+              "removal_reason": null,
+              "collapsed_reason": null,
+              "distinguished": null,
+              "associated_award": null,
+              "stickied": false,
+              "author_premium": false,
+              "can_gild": false,
+              "gildings": {},
+              "unrepliable_reason": null,
+              "author_flair_text_color": null,
+              "score_hidden": false,
+              "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nr8cwph/",
+              "subreddit_type": "public",
+              "locked": false,
+              "report_reasons": null,
+              "created": 1764344957,
               "author_flair_text": null,
               "treatment_tags": [],
               "link_id": "t3_1p71h7b",
@@ -4800,7 +4799,7 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvcnvu/",
               "subreddit_type": "public",
               "locked": false,
@@ -4872,7 +4871,7 @@
                         "created_utc": 1764165821,
                         "send_replies": true,
                         "parent_id": "t1_nquho57",
-                        "score": 1,
+                        "score": 3,
                         "author_fullname": "t2_41wts",
                         "removal_reason": null,
                         "approved_by": null,
@@ -4898,7 +4897,7 @@
                         "link_id": "t3_1p71h7b",
                         "unrepliable_reason": null,
                         "author_flair_text_color": null,
-                        "score_hidden": true,
+                        "score_hidden": false,
                         "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvqnha/",
                         "subreddit_type": "public",
                         "locked": false,
@@ -4914,7 +4913,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": 1
+                        "ups": 3
                       }
                     }
                   ],
@@ -4935,7 +4934,7 @@
               "created_utc": 1764143282,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 0,
+              "score": -2,
               "author_fullname": "t2_uui9b7zu8",
               "approved_by": null,
               "mod_note": null,
@@ -4977,7 +4976,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 0
+              "ups": -2
             }
           },
           {
@@ -5284,7 +5283,7 @@
                         "link_id": "t3_1p71h7b",
                         "unrepliable_reason": null,
                         "author_flair_text_color": null,
-                        "score_hidden": true,
+                        "score_hidden": false,
                         "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvqoy0/",
                         "subreddit_type": "public",
                         "locked": false,
@@ -5516,7 +5515,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nqugf5w",
-                                  "score": 10,
+                                  "score": 11,
                                   "author_fullname": "t2_4f1kehhq",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -5559,7 +5558,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": 10
+                                  "ups": 11
                                 }
                               }
                             ],
@@ -5580,7 +5579,7 @@
                         "created_utc": 1764142570,
                         "send_replies": true,
                         "parent_id": "t1_nqug7b9",
-                        "score": 1,
+                        "score": 0,
                         "author_fullname": "t2_puu1doud",
                         "removal_reason": null,
                         "approved_by": null,
@@ -5622,7 +5621,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": 1
+                        "ups": 0
                       }
                     },
                     {
@@ -5750,7 +5749,7 @@
                                                       "unrepliable_reason": null,
                                                       "author_flair_text_color": null,
                                                       "treatment_tags": [],
-                                                      "score_hidden": true,
+                                                      "score_hidden": false,
                                                       "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqv7iof/",
                                                       "subreddit_type": "public",
                                                       "locked": false,
@@ -5921,7 +5920,7 @@
                                                                                               "top_awarded_type": null,
                                                                                               "unrepliable_reason": null,
                                                                                               "author_flair_text_color": null,
-                                                                                              "score_hidden": true,
+                                                                                              "score_hidden": false,
                                                                                               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqxqngm/",
                                                                                               "subreddit_type": "public",
                                                                                               "locked": false,
@@ -6143,7 +6142,7 @@
                                                       "can_mod_post": false,
                                                       "send_replies": false,
                                                       "parent_id": "t1_nqum05h",
-                                                      "score": -2,
+                                                      "score": -3,
                                                       "author_fullname": "t2_ks9tz",
                                                       "removal_reason": null,
                                                       "approved_by": null,
@@ -6185,7 +6184,7 @@
                                                       "collapsed_because_crowd_control": null,
                                                       "mod_reports": [],
                                                       "num_reports": null,
-                                                      "ups": -2
+                                                      "ups": -3
                                                     }
                                                   }
                                                 ],
@@ -6205,7 +6204,7 @@
                                             "can_mod_post": false,
                                             "send_replies": true,
                                             "parent_id": "t1_nqulkfn",
-                                            "score": 3,
+                                            "score": 4,
                                             "author_fullname": "t2_mqwg8",
                                             "removal_reason": null,
                                             "approved_by": null,
@@ -6248,7 +6247,7 @@
                                             "collapsed_because_crowd_control": null,
                                             "mod_reports": [],
                                             "num_reports": null,
-                                            "ups": 3
+                                            "ups": 4
                                           }
                                         }
                                       ],
@@ -6268,7 +6267,7 @@
                                   "can_mod_post": false,
                                   "send_replies": true,
                                   "parent_id": "t1_nqukf0s",
-                                  "score": -3,
+                                  "score": -2,
                                   "author_fullname": "t2_5gkzt",
                                   "removal_reason": null,
                                   "approved_by": null,
@@ -6311,7 +6310,7 @@
                                   "collapsed_because_crowd_control": null,
                                   "mod_reports": [],
                                   "num_reports": null,
-                                  "ups": -3
+                                  "ups": -2
                                 }
                               }
                             ],
@@ -6332,7 +6331,7 @@
                         "created_utc": 1764144864,
                         "send_replies": true,
                         "parent_id": "t1_nqug7b9",
-                        "score": -3,
+                        "score": -2,
                         "author_fullname": "t2_mqwg8",
                         "removal_reason": null,
                         "approved_by": null,
@@ -6374,7 +6373,7 @@
                         "collapsed_because_crowd_control": null,
                         "mod_reports": [],
                         "num_reports": null,
-                        "ups": -3
+                        "ups": -2
                       }
                     },
                     {
@@ -6470,7 +6469,7 @@
               "created_utc": 1764142446,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": -8,
+              "score": -7,
               "author_fullname": "t2_jldlurei",
               "approved_by": null,
               "mod_note": null,
@@ -6512,7 +6511,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": -8
+              "ups": -7
             }
           },
           {
@@ -6545,7 +6544,7 @@
               "created_utc": 1764160657,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 1,
+              "score": 0,
               "author_fullname": "t2_kcowhh8wc",
               "approved_by": null,
               "mod_note": null,
@@ -6571,7 +6570,7 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvd1ic/",
               "subreddit_type": "public",
               "locked": false,
@@ -6587,7 +6586,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 1
+              "ups": 0
             }
           },
           {
@@ -6620,7 +6619,7 @@
               "created_utc": 1764144580,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": -14,
+              "score": -15,
               "author_fullname": "t2_3ervtit9",
               "approved_by": null,
               "mod_note": null,
@@ -6662,7 +6661,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": -14
+              "ups": -15
             }
           },
           {
@@ -6767,7 +6766,7 @@
                                   "link_id": "t3_1p71h7b",
                                   "unrepliable_reason": null,
                                   "author_flair_text_color": null,
-                                  "score_hidden": true,
+                                  "score_hidden": false,
                                   "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqy5817/",
                                   "subreddit_type": "public",
                                   "locked": false,
@@ -6830,7 +6829,7 @@
                         "link_id": "t3_1p71h7b",
                         "unrepliable_reason": null,
                         "author_flair_text_color": null,
-                        "score_hidden": true,
+                        "score_hidden": false,
                         "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvqrsw/",
                         "subreddit_type": "public",
                         "locked": false,
@@ -6867,7 +6866,7 @@
               "created_utc": 1764141874,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": -6,
+              "score": -5,
               "author_fullname": "t2_17p1343bd6",
               "approved_by": null,
               "mod_note": null,
@@ -6909,7 +6908,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": -6
+              "ups": -5
             }
           },
           {
@@ -6942,7 +6941,7 @@
               "created_utc": 1764159690,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": 1,
+              "score": -1,
               "author_fullname": "t2_yt6k4yvkb",
               "approved_by": null,
               "mod_note": null,
@@ -6968,7 +6967,7 @@
               "gildings": {},
               "unrepliable_reason": null,
               "author_flair_text_color": null,
-              "score_hidden": true,
+              "score_hidden": false,
               "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvavai/",
               "subreddit_type": "public",
               "locked": false,
@@ -6984,7 +6983,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": 1
+              "ups": -1
             }
           },
           {
@@ -7227,7 +7226,7 @@
                         "link_id": "t3_1p71h7b",
                         "unrepliable_reason": null,
                         "author_flair_text_color": null,
-                        "score_hidden": true,
+                        "score_hidden": false,
                         "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvr1nc/",
                         "subreddit_type": "public",
                         "locked": false,
@@ -7264,7 +7263,7 @@
               "created_utc": 1764142912,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": -7,
+              "score": -8,
               "author_fullname": "t2_9ms2zskb",
               "approved_by": null,
               "mod_note": null,
@@ -7306,7 +7305,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": -7
+              "ups": -8
             }
           },
           {
@@ -7411,7 +7410,7 @@
                                   "link_id": "t3_1p71h7b",
                                   "unrepliable_reason": null,
                                   "author_flair_text_color": null,
-                                  "score_hidden": true,
+                                  "score_hidden": false,
                                   "permalink": "/r/interestingasfuck/comments/1p71h7b/bros_aim_is_out_of_the_world/nqvwlc3/",
                                   "subreddit_type": "public",
                                   "locked": false,
@@ -7586,7 +7585,7 @@
               "created_utc": 1764142238,
               "send_replies": true,
               "parent_id": "t3_1p71h7b",
-              "score": -13,
+              "score": -14,
               "author_fullname": "t2_dx5qap5g",
               "approved_by": null,
               "mod_note": null,
@@ -7628,7 +7627,7 @@
               "collapsed_because_crowd_control": null,
               "mod_reports": [],
               "num_reports": null,
-              "ups": -13
+              "ups": -14
             }
           }
         ],
