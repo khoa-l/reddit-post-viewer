@@ -207,7 +207,7 @@ class RedditPostViewer {
           return `
           <div class="comment ${nested}">
             <div class="comment-header">
-              <span class="comment-toggle">[-]</span>
+              <span class="comment-toggle">Hide comments</span>
               <div class="comment-author">
                 <span class="comment-author-name">u/${d.author}</span>
                 <span>• ${this.formatTime(d.created_utc)}</span>
@@ -466,8 +466,8 @@ class RedditPostViewer {
         const comment = toggle.closest(".comment");
         comment.classList.toggle("collapsed");
         toggle.textContent = comment.classList.contains("collapsed")
-          ? "[+]"
-          : "[-]";
+          ? "Show comments"
+          : "Hide comments";
       });
     });
 
@@ -475,7 +475,7 @@ class RedditPostViewer {
     document.querySelectorAll(".comment.nested").forEach((comment) => {
       comment.classList.add("collapsed");
       const toggle = comment.querySelector(".comment-toggle");
-      if (toggle) toggle.textContent = "[+]";
+      if (toggle) toggle.textContent = "Show comments";
     });
   }
 }
