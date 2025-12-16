@@ -138,9 +138,9 @@ class RedditPostViewer {
       }
 
       if (isGif) {
-        html += `<div class="media-frame"><video class="post-video" controls muted loop><source src="${videoUrl}" type="video/mp4"></video></div>`;
+        html += `<div class="media-frame"><video class="post-video" controls loop muted><source src="${videoUrl}" type="video/mp4"></video></div>`;
       } else {
-        html += `<div class="media-frame"><video class="post-video" controls muted><source src="${videoUrl}" type="video/mp4"></video></div>`;
+        html += `<div class="media-frame"><video class="post-video" controls><source src="${videoUrl}" type="video/mp4"></video></div>`;
       }
     } else if (post.post_hint === "image" || this.isImage(post.url)) {
       const imgUrl = post.preview?.images?.[0]?.source?.url
@@ -207,7 +207,7 @@ class RedditPostViewer {
           return `
           <div class="comment ${nested}">
             <div class="comment-header">
-              <span class="comment-toggle">Hide comments</span>
+              <span class="comment-toggle">Hide threads</span>
               <div class="comment-author">
                 <span class="comment-author-name">u/${d.author}</span>
                 <span>• ${this.formatTime(d.created_utc)}</span>
@@ -466,8 +466,8 @@ class RedditPostViewer {
         const comment = toggle.closest(".comment");
         comment.classList.toggle("collapsed");
         toggle.textContent = comment.classList.contains("collapsed")
-          ? "Show comments"
-          : "Hide comments";
+          ? "Show threads"
+          : "Hide threads";
       });
     });
 
@@ -475,7 +475,7 @@ class RedditPostViewer {
     document.querySelectorAll(".comment.nested").forEach((comment) => {
       comment.classList.add("collapsed");
       const toggle = comment.querySelector(".comment-toggle");
-      if (toggle) toggle.textContent = "Show comments";
+      if (toggle) toggle.textContent = "Show threads";
     });
   }
 }
