@@ -129,6 +129,7 @@ class RedditPostViewer {
     } else if (post.is_video && post.media?.reddit_video) {
       const video = post.media.reddit_video;
       const isGif = video.is_gif;
+      const isVertical = video.height > video.width;
 
       // Check if this is a local media path (merged video)
       let videoUrl = video.fallback_url;
@@ -137,10 +138,12 @@ class RedditPostViewer {
         videoUrl = `/api/media/${videoUrl}`;
       }
 
+      const frameClass = isVertical ? "media-frame vertical-video" : "media-frame";
+
       if (isGif) {
-        html += `<div class="media-frame"><video class="post-video" controls loop muted><source src="${videoUrl}" type="video/mp4"></video></div>`;
+        html += `<div class="${frameClass}"><video class="post-video" controls loop muted><source src="${videoUrl}" type="video/mp4"></video></div>`;
       } else {
-        html += `<div class="media-frame"><video class="post-video" controls><source src="${videoUrl}" type="video/mp4"></video></div>`;
+        html += `<div class="${frameClass}"><video class="post-video" controls><source src="${videoUrl}" type="video/mp4"></video></div>`;
       }
     } else if (post.post_hint === "image" || this.isImage(post.url)) {
       const imgUrl = post.preview?.images?.[0]?.source?.url

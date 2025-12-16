@@ -462,6 +462,19 @@
           max-height: 60vh;
         }
 
+        /* Remove black background for vertical videos on mobile */
+        .media-frame.vertical-video {
+          background: transparent;
+          max-height: none;
+          min-height: auto;
+        }
+
+        .media-frame.vertical-video .post-video {
+          max-height: none;
+          width: 100%;
+          height: auto;
+        }
+
         .post-media {
           margin: 1rem -1rem;
         }
@@ -496,6 +509,20 @@
           max-height: 50vh;
           min-height: 150px;
           border-radius: 0;
+        }
+
+        /* Remove black background for vertical videos on smaller mobile screens */
+        .media-frame.vertical-video {
+          background: transparent;
+          max-height: none;
+          min-height: auto;
+          border-radius: 0;
+        }
+
+        .media-frame.vertical-video .post-video {
+          max-height: none;
+          width: 100%;
+          height: auto;
         }
 
         .post-media {
