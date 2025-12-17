@@ -98,6 +98,7 @@ class RedditPostViewer {
     `;
 
     this.attachGalleryListeners();
+    this.attachSpoilerListeners();
   }
 
   attachGalleryListeners() {
@@ -110,6 +111,15 @@ class RedditPostViewer {
     });
 
     this.attachCommentListeners();
+  }
+
+  attachSpoilerListeners() {
+    // Handle spoiler tags - reveal on click
+    document.querySelectorAll(".md-spoiler-text").forEach((spoiler) => {
+      spoiler.addEventListener("click", (e) => {
+        e.target.classList.add("revealed");
+      });
+    });
   }
 
   renderContent(post) {
@@ -129,7 +139,6 @@ class RedditPostViewer {
     } else if (post.is_video && post.media?.reddit_video) {
       const video = post.media.reddit_video;
       const isGif = video.is_gif;
-      const isVertical = video.height > video.width;
 
       // Check if this is a local media path (merged video)
       let videoUrl = video.fallback_url;
@@ -138,12 +147,10 @@ class RedditPostViewer {
         videoUrl = `/api/media/${videoUrl}`;
       }
 
-      const frameClass = isVertical ? "media-frame vertical-video" : "media-frame";
-
       if (isGif) {
-        html += `<div class="${frameClass}"><video class="post-video" controls loop muted><source src="${videoUrl}" type="video/mp4"></video></div>`;
+        html += `<div class="media-frame"><video class="post-video" controls loop muted><source src="${videoUrl}" type="video/mp4"></video></div>`;
       } else {
-        html += `<div class="${frameClass}"><video class="post-video" controls><source src="${videoUrl}" type="video/mp4"></video></div>`;
+        html += `<div class="media-frame"><video class="post-video" controls><source src="${videoUrl}" type="video/mp4"></video></div>`;
       }
     } else if (post.post_hint === "image" || this.isImage(post.url)) {
       const imgUrl = post.preview?.images?.[0]?.source?.url
@@ -209,33 +216,34 @@ class RedditPostViewer {
 
           return `
           <div class="comment ${nested}">
-            <div class="comment-header">
-              <span class="comment-toggle">Hide threads</span>
-              <div class="comment-author">
+            <div class="comment-collapse-line"></div>
+            <div class="comment-main">
+              <div class="comment-header">
+                <button class="comment-toggle-btn">Hide thread</button>
                 <span class="comment-author-name">u/${d.author}</span>
-                <span>• ${this.formatTime(d.created_utc)}</span>
+                <span class="comment-meta">• ${this.formatTime(d.created_utc)}</span>
                 ${
                   replyCount > 0
-                    ? `<span class="reply-count">(${replyCount} ${
+                    ? `<span class="reply-count">• ${replyCount} ${
                         replyCount === 1 ? "reply" : "replies"
-                      })</span>`
+                      }</span>`
                     : ""
                 }
               </div>
-            </div>
-            <div class="comment-content">
-              <div class="comment-body">${this.formatCommentBody(
-                d.body,
-                d.body_html,
-              )}</div>
-              ${
-                hasReplies
-                  ? `<div class="comment-replies">${this.renderComments(
-                      d.replies.data.children,
-                      depth + 1,
-                    )}</div>`
-                  : ""
-              }
+              <div class="comment-content">
+                <div class="comment-body">${this.formatCommentBody(
+                  d.body,
+                  d.body_html,
+                )}</div>
+                ${
+                  hasReplies
+                    ? `<div class="comment-replies">${this.renderComments(
+                        d.replies.data.children,
+                        depth + 1,
+                      )}</div>`
+                    : ""
+                }
+              </div>
             </div>
           </div>
         `;
@@ -295,15 +303,33 @@ class RedditPostViewer {
     return txt.value;
   }
 
+  convertImageLinksToImages(html) {
+    // Match links to preview.redd.it, i.redd.it, i.imgur.com images
+    const imageUrlPattern =
+      /<a href="(https?:\/\/(?:preview\.redd\.it|i\.redd\.it|i\.imgur\.com|imgur\.com)\/[^"]+\.(?:jpg|jpeg|png|gif|webp)[^"]*)"[^>]*>([^<]+)<\/a>/gi;
+
+    return html.replace(imageUrlPattern, (match, url, linkText) => {
+      // If the link text is the URL itself, replace with an image
+      if (linkText.includes("redd.it") || linkText.includes("imgur.com")) {
+        return `<a href="${url}" target="_blank"><img src="${url}" alt="Image" loading="lazy" /></a>`;
+      }
+      // Otherwise keep the link but add image below
+      return `${match}<br><a href="${url}" target="_blank"><img src="${url}" alt="${linkText}" loading="lazy" /></a>`;
+    });
+  }
+
   formatCommentBody(body, body_html) {
     if (body_html) {
-      // Decode HTML entities and clean up Reddit's HTML
+      // Decode HTML entities and use Reddit's formatted HTML
       let html = this.decode(body_html);
-      // Fix paragraph spacing in Reddit HTML
-      html = html.replace(/<\/p>\s*<p>/g, "</p><p>");
+
+      // Convert preview.redd.it and i.redd.it links to images
+      html = this.convertImageLinksToImages(html);
+
       return html;
     }
 
+    // Fallback to plain text if no HTML available
     if (!body) return "";
     let text = this.escapeHtml(body);
 
@@ -463,22 +489,43 @@ class RedditPostViewer {
   }
 
   attachCommentListeners() {
-    document.querySelectorAll(".comment-toggle").forEach((toggle) => {
-      toggle.addEventListener("click", (e) => {
+    document.querySelectorAll(".comment-toggle-btn").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
         e.stopPropagation();
-        const comment = toggle.closest(".comment");
+        const comment = btn.closest(".comment");
         comment.classList.toggle("collapsed");
-        toggle.textContent = comment.classList.contains("collapsed")
-          ? "Show threads"
-          : "Hide threads";
+
+        // Update button text
+        if (comment.classList.contains("collapsed")) {
+          btn.textContent = "Show thread";
+        } else {
+          btn.textContent = "Hide thread";
+        }
+      });
+    });
+
+    // Also allow clicking the collapse line to toggle
+    document.querySelectorAll(".comment-collapse-line").forEach((line) => {
+      line.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const comment = line.closest(".comment");
+        const btn = comment.querySelector(".comment-toggle-btn");
+        comment.classList.toggle("collapsed");
+
+        // Update button text
+        if (comment.classList.contains("collapsed")) {
+          btn.textContent = "Show thread";
+        } else {
+          btn.textContent = "Hide thread";
+        }
       });
     });
 
     // Start nested comments (replies) collapsed, but keep top-level comments expanded
     document.querySelectorAll(".comment.nested").forEach((comment) => {
       comment.classList.add("collapsed");
-      const toggle = comment.querySelector(".comment-toggle");
-      if (toggle) toggle.textContent = "Show threads";
+      const btn = comment.querySelector(".comment-toggle-btn");
+      if (btn) btn.textContent = "Show thread";
     });
   }
 }
