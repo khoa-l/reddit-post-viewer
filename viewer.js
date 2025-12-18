@@ -219,7 +219,6 @@ class RedditPostViewer {
             <div class="comment-collapse-line"></div>
             <div class="comment-main">
               <div class="comment-header">
-                <button class="comment-toggle-btn">Hide thread</button>
                 <span class="comment-author-name">u/${d.author}</span>
                 <span class="comment-meta">• ${this.formatTime(d.created_utc)}</span>
                 ${
@@ -229,6 +228,7 @@ class RedditPostViewer {
                       }</span>`
                     : ""
                 }
+                <button class="comment-toggle-btn">Hide thread</button>
               </div>
               <div class="comment-content">
                 <div class="comment-body">${this.formatCommentBody(
