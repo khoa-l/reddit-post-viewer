@@ -469,7 +469,7 @@ class RedditPostViewer {
           <div class="post-body">
             <p style="font-size: 1.125rem; line-height: 1.6; color: #1a1a1b; margin: 1.5rem 0;">
               This post is special. We want to make sure you are paying attention to all the posts.
-              Please give this post a rating of 2.
+              Please give this post a rating of 20 on the first slider and a rating of 80 on the second slider.
             </p>
           </div>
         </div>
