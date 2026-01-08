@@ -423,7 +423,13 @@
         background: #000;
         border-radius: 4px;
         position: relative;
-        min-height: 200px;
+      }
+
+      /* On large screens, set minimum height for media frame */
+      @container (min-width: 769px) {
+        .media-frame {
+          min-height: 200px;
+        }
       }
 
       .post-image,
@@ -436,33 +442,24 @@
         object-fit: contain;
       }
 
+      /* On small containers, prioritize width over height to ensure controls are usable */
       @container (max-width: 768px) {
         .post-image,
         .post-video {
-          max-height: 60vh;
-        }
-
-        .post-video {
-          min-height: 250px;
-        }
-
-        .post-image {
-          min-height: 250px;
+          width: 100%;
+          height: auto;
+          max-height: none;
+          object-fit: contain;
         }
       }
 
       @container (max-width: 480px) {
         .post-image,
         .post-video {
-          max-height: 50vh;
-        }
-
-        .post-video {
-          min-height: 200px;
-        }
-
-        .post-image {
-          min-height: 200px;
+          width: 100%;
+          height: auto;
+          max-height: none;
+          object-fit: contain;
         }
       }
 
@@ -508,8 +505,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        max-height: 80vh;
-        min-height: 200px;
+      }
+
+      /* On large screens, limit gallery container height */
+      @container (min-width: 769px) {
+        .gallery-container {
+          max-height: 80vh;
+          min-height: 200px;
+        }
       }
 
       .gallery-images {
@@ -522,10 +525,16 @@
 
       .gallery-image {
         flex: 0 0 100%;
-        max-height: 80vh;
         width: 100%;
         height: auto;
         object-fit: contain;
+      }
+
+      /* On large screens, limit gallery height */
+      @container (min-width: 769px) {
+        .gallery-image {
+          max-height: 80vh;
+        }
       }
 
       .gallery-nav {
@@ -757,8 +766,8 @@
       @container (max-width: 768px) {
         .media-frame,
         .gallery-container {
-          max-height: 60vh;
-          min-height: 250px;
+          max-height: none;
+          min-height: auto;
         }
 
         .post-media {
@@ -774,17 +783,13 @@
           bottom: 0.5rem;
           font-size: 0.75rem;
         }
-
-        .gallery-image {
-          min-height: 250px;
-        }
       }
 
       @container (max-width: 480px) {
         .media-frame,
         .gallery-container {
-          max-height: 50vh;
-          min-height: 200px;
+          max-height: none;
+          min-height: auto;
         }
 
         .post-media {
@@ -794,10 +799,6 @@
         .gallery-nav {
           padding: 0.5rem;
           font-size: 1rem;
-        }
-
-        .gallery-image {
-          min-height: 200px;
         }
       }
     </style>
