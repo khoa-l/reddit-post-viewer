@@ -153,12 +153,16 @@ class RedditPostViewer {
         html += `<div class="media-frame"><video class="post-video" controls><source src="${videoUrl}" type="video/mp4"></video></div>`;
       }
     } else if (post.post_hint === "image" || this.isImage(post.url)) {
-      const imgUrl = post.preview?.images?.[0]?.source?.url
-        ? this.decode(post.preview.images[0].source.url)
-        : post.url;
+      // Check for locally downloaded image first
+      let imgUrl = post.url;
+      if (post.local_media?.contentType === 'image' && post.local_media?.files?.[0]?.path) {
+        imgUrl = `/api/media/${post.local_media.files[0].path}`;
+      } else if (post.preview?.images?.[0]?.source?.url) {
+        imgUrl = this.decode(post.preview.images[0].source.url);
+      }
       html += `<div class="media-frame"><img src="${imgUrl}" alt="${this.decode(
         post.title,
-      )}" class="post-image" /></div>`;
+      )}" class="post-image" onerror="this.onerror=null; this.style.display='none'; this.parentElement.innerHTML='<div style=\\'padding: 2rem; color: #999; text-align: center;\\'>Image failed to load</div>'" /></div>`;
     } else if (post.url && post.url !== post.permalink && !post.is_self) {
       const thumb = post.thumbnail?.startsWith("http")
         ? `<img src="${post.thumbnail}" class="post-thumbnail" alt="Link preview" />`
@@ -178,12 +182,20 @@ class RedditPostViewer {
       '<div class="gallery-container"><div class="gallery-images" id="gallery-images">';
 
     items.forEach((item, i) => {
-      const media = metadata[item.media_id];
-      if (media?.s) {
-        const url = this.decode(media.s.u || media.s.gif);
+      // Check for locally downloaded gallery images first
+      if (post.local_media?.contentType === 'gallery' && post.local_media?.files?.[i]?.path) {
+        const url = `/api/media/${post.local_media.files[i].path}`;
         html += `<img src="${url}" alt="Image ${
           i + 1
-        }" class="gallery-image" />`;
+        }" class="gallery-image" onerror="this.style.opacity='0.3'; this.alt='Failed to load'" />`;
+      } else {
+        const media = metadata[item.media_id];
+        if (media?.s) {
+          const url = this.decode(media.s.u || media.s.gif);
+          html += `<img src="${url}" alt="Image ${
+            i + 1
+          }" class="gallery-image" onerror="this.style.opacity='0.3'; this.alt='Failed to load'" />`;
+        }
       }
     });
 
