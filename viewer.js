@@ -24,6 +24,11 @@ class RedditPostViewer {
       return this.showAttentionCheck();
     }
 
+    // Check for content attention check
+    if (postId === "content_attention") {
+      return this.showContentAttentionCheck();
+    }
+
     // Construct filename from post ID
     const filename = `${postId}.json`;
     this.loadPost(filename);
@@ -482,6 +487,22 @@ class RedditPostViewer {
             <p style="font-size: 1.125rem; line-height: 1.6; color: #1a1a1b; margin: 1.5rem 0;">
               This post is special. We want to make sure you are paying attention to all the posts.
               Please give this post a rating of 20 on the first slider and a rating of 80 on the second slider.
+            </p>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  showContentAttentionCheck() {
+    document.getElementById("app").innerHTML = `
+      <div class="post-container">
+        <div class="post-content">
+          <h1 class="post-title">Content Attention Check</h1>
+          <div class="post-body">
+            <p style="font-size: 1.125rem; line-height: 1.6; color: #1a1a1b; margin: 1.5rem 0;">
+              This post is special. We want to make sure you are paying attention to all the posts.
+              Please give this post a rating of 20 on the slider.
             </p>
           </div>
         </div>
