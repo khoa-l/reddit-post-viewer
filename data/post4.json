@@ -167,7 +167,7 @@
               "media": {
                 "reddit_video": {
                   "bitrate_kbps": 2400,
-                  "fallback_url": "media/1q6oqx8/merged.mp4",
+                  "fallback_url": "media/post4/merged.mp4",
                   "has_audio": true,
                   "height": 1280,
                   "width": 720,
@@ -184,7 +184,7 @@
               "author_flair_text_color": null,
               "permalink": "/r/NFLv2/comments/1q6oqx8/dave_ramsey_on_sports_betting_the_fastest_growing/",
               "stickied": false,
-              "url": "media/1q6oqx8/merged.mp4",
+              "url": "media/post4/merged.mp4",
               "subreddit_subscribers": 141037,
               "created_utc": 1767813431,
               "num_crossposts": 3,
@@ -195,8 +195,8 @@
                 "files": [
                   {
                     "type": "video",
-                    "path": "media/1q6oqx8/merged.mp4",
-                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/1q6oqx8/merged.mp4",
+                    "path": "media/post4/merged.mp4",
+                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/post4/merged.mp4",
                     "hasAudio": true
                   }
                 ]

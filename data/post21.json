@@ -172,7 +172,7 @@
               "media": {
                 "reddit_video": {
                   "bitrate_kbps": 2400,
-                  "fallback_url": "media/1q6lyxo/merged.mp4",
+                  "fallback_url": "media/post21/merged.mp4",
                   "has_audio": true,
                   "height": 720,
                   "width": 1280,
@@ -189,7 +189,7 @@
               "author_flair_text_color": null,
               "permalink": "/r/CringeTikToks/comments/1q6lyxo/after_a_strong_worded_letter_to_deter_trump/",
               "stickied": false,
-              "url": "media/1q6lyxo/merged.mp4",
+              "url": "media/post21/merged.mp4",
               "subreddit_subscribers": 614270,
               "created_utc": 1767807623,
               "num_crossposts": 1,
@@ -200,8 +200,8 @@
                 "files": [
                   {
                     "type": "video",
-                    "path": "media/1q6lyxo/merged.mp4",
-                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/1q6lyxo/merged.mp4",
+                    "path": "media/post21/merged.mp4",
+                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/post21/merged.mp4",
                     "hasAudio": true
                   }
                 ]

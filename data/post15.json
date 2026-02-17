@@ -161,7 +161,7 @@
               "media": {
                 "reddit_video": {
                   "bitrate_kbps": 2400,
-                  "fallback_url": "media/1q6tu49/merged.mp4",
+                  "fallback_url": "media/post15/merged.mp4",
                   "has_audio": true,
                   "height": 720,
                   "width": 720,
@@ -178,7 +178,7 @@
               "author_flair_text_color": null,
               "permalink": "/r/ProgressiveHQ/comments/1q6tu49/stop_idiots_from_calling_this_self_defense/",
               "stickied": false,
-              "url": "media/1q6tu49/merged.mp4",
+              "url": "media/post15/merged.mp4",
               "subreddit_subscribers": 95689,
               "created_utc": 1767824941,
               "num_crossposts": 22,
@@ -189,8 +189,8 @@
                 "files": [
                   {
                     "type": "video",
-                    "path": "media/1q6tu49/merged.mp4",
-                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/1q6tu49/merged.mp4",
+                    "path": "media/post15/merged.mp4",
+                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/post15/merged.mp4",
                     "hasAudio": true
                   }
                 ]

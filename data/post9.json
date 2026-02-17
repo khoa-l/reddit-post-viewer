@@ -281,22 +281,22 @@
                 "files": [
                   {
                     "type": "gallery_image",
-                    "path": "media/1q6exrc/image_1.jpg",
-                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/1q6exrc/image_1.jpg",
+                    "path": "media/post9/image_1.jpg",
+                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/post9/image_1.jpg",
                     "index": 1,
                     "mediaId": "bnelatkdfxbg1"
                   },
                   {
                     "type": "gallery_image",
-                    "path": "media/1q6exrc/image_2.jpg",
-                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/1q6exrc/image_2.jpg",
+                    "path": "media/post9/image_2.jpg",
+                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/post9/image_2.jpg",
                     "index": 2,
                     "mediaId": "i8f50fydfxbg1"
                   },
                   {
                     "type": "gallery_image",
-                    "path": "media/1q6exrc/image_3.jpg",
-                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/1q6exrc/image_3.jpg",
+                    "path": "media/post9/image_3.jpg",
+                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/post9/image_3.jpg",
                     "index": 3,
                     "mediaId": "i9kgkvcefxbg1"
                   }

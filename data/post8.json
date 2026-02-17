@@ -161,7 +161,7 @@
               "media": {
                 "reddit_video": {
                   "bitrate_kbps": 1200,
-                  "fallback_url": "media/1q6v67p/merged.mp4",
+                  "fallback_url": "media/post8/merged.mp4",
                   "has_audio": true,
                   "height": 854,
                   "width": 480,
@@ -178,7 +178,7 @@
               "author_flair_text_color": null,
               "permalink": "/r/nextfuckinglevel/comments/1q6v67p/scratching_skills/",
               "stickied": false,
-              "url": "media/1q6v67p/merged.mp4",
+              "url": "media/post8/merged.mp4",
               "subreddit_subscribers": 9994040,
               "created_utc": 1767828039,
               "num_crossposts": 1,
@@ -189,8 +189,8 @@
                 "files": [
                   {
                     "type": "video",
-                    "path": "media/1q6v67p/merged.mp4",
-                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/1q6v67p/merged.mp4",
+                    "path": "media/post8/merged.mp4",
+                    "fullPath": "/Users/khoaly/Desktop/30_research/31_thesis/3112_custom_feeds/q_viewer/reddit-downloader/data/media/post8/merged.mp4",
                     "hasAudio": true
                   }
                 ]
