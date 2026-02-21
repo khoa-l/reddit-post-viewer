@@ -26,7 +26,12 @@ class RedditPostViewer {
 
     // Check for content attention check
     if (postId === "content_attention") {
-      return this.showContentAttentionCheck();
+      return this.showContentAttentionCheck(1);
+    }
+
+    // Check for second content attention check
+    if (postId === "content_attention_2") {
+      return this.showContentAttentionCheck(2);
     }
 
     // Construct filename from post ID
@@ -160,7 +165,10 @@ class RedditPostViewer {
     } else if (post.post_hint === "image" || this.isImage(post.url)) {
       // Check for locally downloaded image first
       let imgUrl = post.url;
-      if (post.local_media?.contentType === 'image' && post.local_media?.files?.[0]?.path) {
+      if (
+        post.local_media?.contentType === "image" &&
+        post.local_media?.files?.[0]?.path
+      ) {
         imgUrl = `/api/media/${post.local_media.files[0].path}`;
       } else if (post.preview?.images?.[0]?.source?.url) {
         imgUrl = this.decode(post.preview.images[0].source.url);
@@ -188,7 +196,10 @@ class RedditPostViewer {
 
     items.forEach((item, i) => {
       // Check for locally downloaded gallery images first
-      if (post.local_media?.contentType === 'gallery' && post.local_media?.files?.[i]?.path) {
+      if (
+        post.local_media?.contentType === "gallery" &&
+        post.local_media?.files?.[i]?.path
+      ) {
         const url = `/api/media/${post.local_media.files[i].path}`;
         html += `<img src="${url}" alt="Image ${
           i + 1
@@ -237,7 +248,9 @@ class RedditPostViewer {
             <div class="comment-main">
               <div class="comment-header">
                 <span class="comment-author-name">u/${d.author}</span>
-                <span class="comment-meta">• ${this.formatTime(d.created_utc)}</span>
+                <span class="comment-meta">• ${this.formatTime(
+                  d.created_utc,
+                )}</span>
                 ${
                   replyCount > 0
                     ? `<span class="reply-count">• ${replyCount} ${
@@ -494,7 +507,7 @@ class RedditPostViewer {
     `;
   }
 
-  showContentAttentionCheck() {
+  showContentAttentionCheck(number) {
     document.getElementById("app").innerHTML = `
       <div class="post-container">
         <div class="post-content">
@@ -502,7 +515,9 @@ class RedditPostViewer {
           <div class="post-body">
             <p style="font-size: 1.125rem; line-height: 1.6; color: #1a1a1b; margin: 1.5rem 0;">
               This post is special. We want to make sure you are paying attention to all the posts.
-              Please give this post a rating of 20 on the slider.
+              Please give this post a rating of ${
+                number == 1 ? "20" : "80"
+              } on the slider.
             </p>
           </div>
         </div>
