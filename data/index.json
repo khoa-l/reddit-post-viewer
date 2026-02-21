@@ -7,7 +7,7 @@
     "timestamp": "2026-02-21T02:43:17.856Z",
     "filename": "post1.json",
     "postId": "post1",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post2": {
@@ -18,7 +18,7 @@
     "timestamp": "2026-02-21T02:43:20.461Z",
     "filename": "post2.json",
     "postId": "post2",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post3": {
@@ -29,7 +29,7 @@
     "timestamp": "2026-02-21T02:43:23.181Z",
     "filename": "post3.json",
     "postId": "post3",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post4": {
@@ -40,7 +40,7 @@
     "timestamp": "2026-02-21T02:43:25.478Z",
     "filename": "post4.json",
     "postId": "post4",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post5": {
@@ -73,7 +73,7 @@
     "timestamp": "2026-02-21T02:43:35.793Z",
     "filename": "post7.json",
     "postId": "post7",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post8": {
@@ -106,7 +106,7 @@
     "timestamp": "2026-02-21T03:17:55.989Z",
     "filename": "post10.json",
     "postId": "post10",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post11": {
@@ -128,7 +128,7 @@
     "timestamp": "2026-02-21T03:17:58.017Z",
     "filename": "post12.json",
     "postId": "post12",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post13": {
@@ -139,7 +139,7 @@
     "timestamp": "2026-02-21T03:17:59.024Z",
     "filename": "post13.json",
     "postId": "post13",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post14": {
@@ -150,7 +150,7 @@
     "timestamp": "2026-02-21T03:18:00.031Z",
     "filename": "post14.json",
     "postId": "post14",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post15": {
@@ -172,7 +172,7 @@
     "timestamp": "2026-02-21T03:22:51.559Z",
     "filename": "post16.json",
     "postId": "post16",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post17": {
@@ -227,7 +227,7 @@
     "timestamp": "2026-02-21T03:18:01.404Z",
     "filename": "post21.json",
     "postId": "post21",
-    "contentType": "link",
+    "contentType": "text",
     "hasLocalMedia": false
   },
   "post22": {
