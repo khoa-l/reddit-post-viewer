@@ -1,0 +1,186 @@
+{
+  "path": "r/bonusbucks/comments/1tw10j9/ai",
+  "timestamp": "2026-06-03T20:16:05.235Z",
+  "data": [
+    {
+      "kind": "Listing",
+      "data": {
+        "after": null,
+        "dist": 1,
+        "modhash": null,
+        "geo_filter": "",
+        "children": [
+          {
+            "kind": "t3",
+            "data": {
+              "approved_at_utc": null,
+              "subreddit": "bonusbucks",
+              "selftext": "[A2E.AI](http://A2E.AI)\n\nbonus - [https://video.a2e.ai/?coupon=Smma](https://video.a2e.ai/?coupon=Smma)",
+              "user_reports": [],
+              "saved": false,
+              "mod_reason_title": null,
+              "gilded": 0,
+              "clicked": false,
+              "title": "ai",
+              "link_flair_richtext": [],
+              "subreddit_name_prefixed": "r/bonusbucks",
+              "hidden": false,
+              "pwls": 6,
+              "link_flair_css_class": null,
+              "downs": 0,
+              "thumbnail_height": null,
+              "top_awarded_type": null,
+              "hide_score": true,
+              "name": "t3_1tw10j9",
+              "quarantine": false,
+              "link_flair_text_color": "dark",
+              "upvote_ratio": 1,
+              "author_flair_background_color": null,
+              "subreddit_type": "public",
+              "ups": 1,
+              "total_awards_received": 0,
+              "media_embed": {},
+              "thumbnail_width": null,
+              "author_flair_template_id": null,
+              "is_original_content": false,
+              "author_fullname": "t2_59fpvzo8",
+              "secure_media": null,
+              "is_reddit_media_domain": false,
+              "is_meta": false,
+              "category": null,
+              "secure_media_embed": {},
+              "link_flair_text": null,
+              "can_mod_post": false,
+              "score": 1,
+              "approved_by": null,
+              "is_created_from_ads_ui": false,
+              "author_premium": false,
+              "thumbnail": "self",
+              "edited": false,
+              "author_flair_css_class": null,
+              "author_flair_richtext": [],
+              "gildings": {},
+              "post_hint": "self",
+              "content_categories": null,
+              "is_self": true,
+              "mod_note": null,
+              "created": 1780517143,
+              "link_flair_type": "text",
+              "wls": 6,
+              "removed_by_category": null,
+              "banned_by": null,
+              "author_flair_type": "text",
+              "domain": "self.bonusbucks",
+              "allow_live_comments": false,
+              "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;a href=\"http://A2E.AI\"&gt;A2E.AI&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;bonus - &lt;a href=\"https://video.a2e.ai/?coupon=Smma\"&gt;https://video.a2e.ai/?coupon=Smma&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+              "likes": null,
+              "suggested_sort": null,
+              "banned_at_utc": null,
+              "view_count": null,
+              "archived": false,
+              "no_follow": true,
+              "is_crosspostable": true,
+              "pinned": false,
+              "over_18": false,
+              "preview": {
+                "images": [
+                  {
+                    "source": {
+                      "url": "https://external-preview.redd.it/5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk.jpeg?auto=webp&amp;s=a930b6bb6eb5104fcfe637c0fdb3fa1c3dd786ae",
+                      "width": 1200,
+                      "height": 675
+                    },
+                    "resolutions": [
+                      {
+                        "url": "https://external-preview.redd.it/5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=506d5549f0e691b327c06bf1d126eb764ff5ddb3",
+                        "width": 108,
+                        "height": 60
+                      },
+                      {
+                        "url": "https://external-preview.redd.it/5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=e42bc9854913c044e6f9918cad6aea9c4298cf74",
+                        "width": 216,
+                        "height": 121
+                      },
+                      {
+                        "url": "https://external-preview.redd.it/5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=6ce0f553d068f7ced899d7fd2e9c477118f1c96c",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://external-preview.redd.it/5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=df3f0b75171dd08ac635d83a1bb482be8fe06c8f",
+                        "width": 640,
+                        "height": 360
+                      },
+                      {
+                        "url": "https://external-preview.redd.it/5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=49046ea2d10dabc91db2239778e40d19df1b0166",
+                        "width": 960,
+                        "height": 540
+                      },
+                      {
+                        "url": "https://external-preview.redd.it/5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=e8e97363e9c8450e72fc36215c908863dbce6506",
+                        "width": 1080,
+                        "height": 607
+                      }
+                    ],
+                    "variants": {},
+                    "id": "5LUENYIH5S1WafzfvFZL4cBPY2C_9s7KvqqCcfdr0fk"
+                  }
+                ],
+                "enabled": false
+              },
+              "all_awardings": [],
+              "awarders": [],
+              "media_only": false,
+              "can_gild": false,
+              "spoiler": false,
+              "locked": false,
+              "author_flair_text": null,
+              "treatment_tags": [],
+              "visited": false,
+              "removed_by": null,
+              "num_reports": null,
+              "distinguished": null,
+              "subreddit_id": "t5_5phzl0",
+              "author_is_blocked": false,
+              "mod_reason_by": null,
+              "removal_reason": null,
+              "link_flair_background_color": "",
+              "id": "1tw10j9",
+              "is_robot_indexable": true,
+              "num_duplicates": 0,
+              "report_reasons": null,
+              "author": "Significant_Age_6651",
+              "discussion_type": null,
+              "num_comments": 0,
+              "send_replies": true,
+              "media": null,
+              "contest_mode": false,
+              "author_patreon_flair": false,
+              "author_flair_text_color": null,
+              "permalink": "/r/bonusbucks/comments/1tw10j9/ai/",
+              "stickied": false,
+              "url": "https://www.reddit.com/r/bonusbucks/comments/1tw10j9/ai/",
+              "subreddit_subscribers": 101,
+              "created_utc": 1780517143,
+              "num_crossposts": 0,
+              "mod_reports": [],
+              "is_video": false
+            }
+          }
+        ],
+        "before": null
+      }
+    },
+    {
+      "kind": "Listing",
+      "data": {
+        "after": null,
+        "dist": null,
+        "modhash": null,
+        "geo_filter": "",
+        "children": [],
+        "before": null
+      }
+    }
+  ]
+}
