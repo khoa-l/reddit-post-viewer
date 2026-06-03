@@ -416,6 +416,7 @@
       .media-frame {
         width: 100%;
         max-width: 960px;
+        max-height: 60vh;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -435,32 +436,11 @@
       .post-image,
       .post-video {
         max-width: 100%;
-        max-height: 80vh;
+        max-height: 60vh;
         width: auto;
         height: auto;
         display: block;
         object-fit: contain;
-      }
-
-      /* On small containers, prioritize width over height to ensure controls are usable */
-      @container (max-width: 768px) {
-        .post-image,
-        .post-video {
-          width: 100%;
-          height: auto;
-          max-height: none;
-          object-fit: contain;
-        }
-      }
-
-      @container (max-width: 480px) {
-        .post-image,
-        .post-video {
-          width: 100%;
-          height: auto;
-          max-height: none;
-          object-fit: contain;
-        }
       }
 
       .post-link {
@@ -498,6 +478,7 @@
         position: relative;
         width: 100%;
         max-width: 960px;
+        max-height: 60vh;
         margin: 0 auto;
         overflow: hidden;
         border-radius: 4px;
@@ -507,10 +488,9 @@
         justify-content: center;
       }
 
-      /* On large screens, limit gallery container height */
+      /* On large screens, set minimum height for gallery */
       @container (min-width: 769px) {
         .gallery-container {
-          max-height: 80vh;
           min-height: 200px;
         }
       }
@@ -526,15 +506,9 @@
       .gallery-image {
         flex: 0 0 100%;
         width: 100%;
+        max-height: 60vh;
         height: auto;
         object-fit: contain;
-      }
-
-      /* On large screens, limit gallery height */
-      @container (min-width: 769px) {
-        .gallery-image {
-          max-height: 80vh;
-        }
       }
 
       .gallery-nav {
@@ -766,7 +740,6 @@
       @container (max-width: 768px) {
         .media-frame,
         .gallery-container {
-          max-height: none;
           min-height: auto;
         }
 
@@ -788,7 +761,6 @@
       @container (max-width: 480px) {
         .media-frame,
         .gallery-container {
-          max-height: none;
           min-height: auto;
         }
 

@@ -531,9 +531,8 @@ class RedditPostViewer {
   }
 
   showError(msg) {
-    document.getElementById(
-      "app",
-    ).innerHTML = `<div class="error"><h2>Error</h2><p>${msg}</p></div>`;
+    document.getElementById("app").innerHTML =
+      `<div class="error"><h2>Error</h2><p>${msg}</p></div>`;
   }
 
   attachCommentListeners() {
