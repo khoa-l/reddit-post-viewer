@@ -177,7 +177,7 @@
               "media": {
                 "reddit_video": {
                   "bitrate_kbps": 1200,
-                  "fallback_url": "media/1tvq6e4/merged.mp4",
+                  "fallback_url": "media/post7/merged.mp4",
                   "has_audio": true,
                   "height": 430,
                   "width": 854,
@@ -194,7 +194,7 @@
               "author_flair_text_color": null,
               "permalink": "/r/wallstreetbets/comments/1tvq6e4/circular_economy_is_actually_good/",
               "stickied": false,
-              "url": "media/1tvq6e4/merged.mp4",
+              "url": "media/post7/merged.mp4",
               "subreddit_subscribers": 20030105,
               "created_utc": 1780495104,
               "num_crossposts": 1,
@@ -205,8 +205,8 @@
                 "files": [
                   {
                     "type": "video",
-                    "path": "media/1tvq6e4/merged.mp4",
-                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/1tvq6e4/merged.mp4",
+                    "path": "media/post7/merged.mp4",
+                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/post7/merged.mp4",
                     "hasAudio": true
                   }
                 ]

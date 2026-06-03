@@ -171,7 +171,7 @@
               "media": {
                 "reddit_video": {
                   "bitrate_kbps": 5000,
-                  "fallback_url": "media/1tvveo9/video.mp4",
+                  "fallback_url": "media/post1/video.mp4",
                   "has_audio": false,
                   "height": 1080,
                   "width": 1920,
@@ -188,7 +188,7 @@
               "author_flair_text_color": null,
               "permalink": "/r/dashcams/comments/1tvveo9/guy_takes_1300_horsepower_car_on_public_streets/",
               "stickied": false,
-              "url": "media/1tvveo9/video.mp4",
+              "url": "media/post1/video.mp4",
               "subreddit_subscribers": 390760,
               "created_utc": 1780505780,
               "num_crossposts": 2,
@@ -199,8 +199,8 @@
                 "files": [
                   {
                     "type": "video",
-                    "path": "media/1tvveo9/video.mp4",
-                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/1tvveo9/video.mp4",
+                    "path": "media/post1/video.mp4",
+                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/post1/video.mp4",
                     "hasAudio": false
                   }
                 ]

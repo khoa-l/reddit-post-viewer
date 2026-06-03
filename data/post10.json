@@ -233,15 +233,15 @@
                 "files": [
                   {
                     "type": "gallery_image",
-                    "path": "media/1tvmjw5/image_1.jpg",
-                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/1tvmjw5/image_1.jpg",
+                    "path": "media/post10/image_1.jpg",
+                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/post10/image_1.jpg",
                     "index": 1,
                     "mediaId": "z2cgk0yrz15h1"
                   },
                   {
                     "type": "gallery_image",
-                    "path": "media/1tvmjw5/image_2.jpg",
-                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/1tvmjw5/image_2.jpg",
+                    "path": "media/post10/image_2.jpg",
+                    "fullPath": "/Users/khoaly/Desktop/00_projects/01_thesis/0101_thesis_choice_blindness/survey_viewer/reddit-downloader/data/media/post10/image_2.jpg",
                     "index": 2,
                     "mediaId": "1mvje0yrz15h1"
                   }
