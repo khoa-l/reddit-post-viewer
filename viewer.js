@@ -579,4 +579,5 @@ class RedditPostViewer {
 
 document.addEventListener("DOMContentLoaded", () => {
   new RedditPostViewer();
+  window.parent.postMessage({ type: "ready" }, "*");
 });
