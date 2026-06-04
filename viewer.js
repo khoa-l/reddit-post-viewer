@@ -25,7 +25,7 @@ class RedditPostViewer {
     });
 
     document.addEventListener("scroll", () => {
-      this.logEvent("scroll", { scrollY: window.scrollY });
+      this.logEvent("scroll", {});
     });
 
     document.addEventListener("mousemove", (e) => {
@@ -45,6 +45,10 @@ class RedditPostViewer {
         session: this.participantId,
         post: this.postId,
         event: type,
+        vw: window.innerWidth,
+        vh: window.innerHeight,
+        scrollY: window.scrollY,
+        pageH: document.body.scrollHeight,
         ...data,
       }),
     }).catch(() => {});

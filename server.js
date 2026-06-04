@@ -30,7 +30,7 @@ function getMimeType(filepath) {
 const server = http.createServer((req, res) => {
   // Enable CORS
   res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
   if (req.method === "OPTIONS") {
@@ -126,6 +126,23 @@ const server = http.createServer((req, res) => {
 
 function handleApiRequest(req, res) {
   const urlPath = req.url;
+
+  // Log participant events
+  if (urlPath === "/api/log" && req.method === "POST") {
+    let body = "";
+    req.on("data", (chunk) => { body += chunk; });
+    req.on("end", () => {
+      try {
+        const event = JSON.parse(body);
+        console.log("[EVENT]", JSON.stringify(event));
+      } catch (e) {
+        console.log("[EVENT] malformed:", body);
+      }
+      res.writeHead(204);
+      res.end();
+    });
+    return;
+  }
 
   // Get config/settings
   if (urlPath === "/api/config") {
