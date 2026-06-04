@@ -133,8 +133,9 @@ function handleApiRequest(req, res) {
     req.on("data", (chunk) => { body += chunk; });
     req.on("end", () => {
       try {
-        const event = JSON.parse(body);
-        console.log("[EVENT]", JSON.stringify(event));
+        const batch = JSON.parse(body);
+        const events = Array.isArray(batch) ? batch : [batch];
+        events.forEach((event) => console.log("[EVENT]", JSON.stringify(event)));
       } catch (e) {
         console.log("[EVENT] malformed:", body);
       }

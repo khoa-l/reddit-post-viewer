@@ -6,9 +6,12 @@ class RedditPostViewer {
     this.participantId = null;
     this.postId = null;
     this._lastMouseMove = 0;
+    this._eventQueue = [];
     this.init();
     this.initMessageListener();
     this.initEventTracking();
+    this._flushInterval = setInterval(() => this.flushEvents(), 2000);
+    window.addEventListener("beforeunload", () => this.flushEvents(true));
   }
 
   initMessageListener() {
@@ -37,21 +40,32 @@ class RedditPostViewer {
   }
 
   logEvent(type, data) {
-    fetch("/api/log", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        t: Date.now(),
-        session: this.participantId,
-        post: this.postId,
-        event: type,
-        vw: window.innerWidth,
-        vh: window.innerHeight,
-        scrollY: window.scrollY,
-        pageH: document.body.scrollHeight,
-        ...data,
-      }),
-    }).catch(() => {});
+    this._eventQueue.push({
+      t: Date.now(),
+      session: this.participantId,
+      post: this.postId,
+      event: type,
+      vw: window.innerWidth,
+      vh: window.innerHeight,
+      scrollY: window.scrollY,
+      pageH: document.body.scrollHeight,
+      ...data,
+    });
+  }
+
+  flushEvents(useBeacon = false) {
+    if (this._eventQueue.length === 0) return;
+    const batch = this._eventQueue.splice(0);
+    const body = JSON.stringify(batch);
+    if (useBeacon) {
+      navigator.sendBeacon("/api/log", new Blob([body], { type: "application/json" }));
+    } else {
+      fetch("/api/log", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body,
+      }).catch(() => {});
+    }
   }
 
   async init() {
