@@ -3,7 +3,51 @@
 class RedditPostViewer {
   constructor() {
     this.galleryIndex = 0;
+    this.participantId = null;
+    this.postId = null;
+    this._lastMouseMove = 0;
     this.init();
+    this.initMessageListener();
+    this.initEventTracking();
+  }
+
+  initMessageListener() {
+    window.addEventListener("message", (e) => {
+      if (e.data.type === "init" && e.data.participantId) {
+        this.participantId = e.data.participantId;
+      }
+    });
+  }
+
+  initEventTracking() {
+    document.addEventListener("click", (e) => {
+      this.logEvent("click", { x: e.clientX, y: e.clientY });
+    });
+
+    document.addEventListener("scroll", () => {
+      this.logEvent("scroll", { scrollY: window.scrollY });
+    });
+
+    document.addEventListener("mousemove", (e) => {
+      const now = Date.now();
+      if (now - this._lastMouseMove < 500) return;
+      this._lastMouseMove = now;
+      this.logEvent("mousemove", { x: e.clientX, y: e.clientY });
+    });
+  }
+
+  logEvent(type, data) {
+    fetch("/api/log", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        t: Date.now(),
+        session: this.participantId,
+        post: this.postId,
+        event: type,
+        ...data,
+      }),
+    }).catch(() => {});
   }
 
   async init() {
@@ -12,6 +56,7 @@ class RedditPostViewer {
 
     const params = new URLSearchParams(window.location.search);
     const postId = params.get("post");
+    this.postId = postId;
 
     if (!postId) {
       return this.showError(
