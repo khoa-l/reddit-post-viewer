@@ -1,4 +1,4 @@
-# Reddit Post Viewer
+# Reddit Survey Client
 
 A web-based viewer for displaying Reddit posts from JSON files with support for images, videos, galleries, and nested comments.
 
