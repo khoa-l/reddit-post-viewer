@@ -109,7 +109,3 @@ reddit-viewer/
 - Ensure media files exist in `data/media/{postId}/`
 - Check that media was downloaded with reddit-downloader
 - Verify file paths in JSON match actual file locations
-
-## License
-
-MIT
